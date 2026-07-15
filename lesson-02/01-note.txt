@@ -1,2 +1,9 @@
-Buổi 3. 
-1.
+Buổi 3: Các câu lệnh git
+1. Khởi tạo dự án playwright: npm init playwright@latest
+
+2.  
+git init: Tạo ra một kho lưu trữ Git trống. Lệnh này sẽ tạo ra một thư mục ẩn tên là .git ngay tại thư mục hiện hành của bạn để bắt đầu theo dõi các thay đổi.
+git add .: Thêm toàn bộ các file và thư mục mới tạo (bao gồm cả cấu hình Playwright) vào khu vực chuẩn bị (Staging Area) để sẵn sàng ghi nhận.
+git commit -m"init project": Ghi lại (chụp ảnh) trạng thái hiện tại của các file đã add vào lịch sử của Git với tin nhắn đính kèm là "init project"
+
+# làm việc trên nhiều máy khác nhau: pull. push. remote
